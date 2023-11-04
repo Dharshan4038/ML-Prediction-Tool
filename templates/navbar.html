@@ -1,0 +1,12 @@
+{% load static %}
+
+<header>
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand"><img class="logo" src="{% static 'images/logo.png' %}" alt="logo"></a>
+        <div>
+          <a href="{% url 'projects' %}"><button class="start-btn btn btn-primary">Get Started</button></a>
+        </div>
+      </div>
+    </nav>
+</header>

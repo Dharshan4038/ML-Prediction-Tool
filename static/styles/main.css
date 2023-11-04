@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Neonderthaw&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&family=Roboto:ital@0;1&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: whitesmoke;
+  height: 60px;
+}
+
+.start-btn {
+  width: 150px;
+  margin-right: 3rem;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.logo {
+  width: 200px;
+  height: 30px;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  padding: 7% 10%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.main-ct {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7rem;
+}
+
+.banner {
+  width: 650px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.main-ct h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #0d6efd;
+}
+
+.main-ct h3 {
+  font-size: 2rem;
+  line-height: 1.3;
+  width: 500px;
+  margin-bottom: 25px;
+}
+
+.main-ct p {
+  width: 450px;
+}
+
+.banner-btn {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-ct a {
+  color: white;
+  text-decoration: none;
+}
+
+#features {
+  padding: 7% 8%;
+  position: relative;
+}
+
+.int {
+  padding: 5%;
+  text-align: center;
+}
+
+#features i {
+  font-size: 3.5rem;
+  color: #0d6efd;
+  margin-bottom: 5px;
+}
+
+#features h3 {
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.guide-ht {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+
+#guide {
+  padding: 0 7% 7% 10%;
+  position: relative;
+}
+
+.export-img {
+  height: 175px;
+  margin-top: -40px;
+}
+
+.guide-img {
+  margin-bottom: 3rem;
+}
+
+.intn {
+  padding: 5%;
+}
+
+#guide p {
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+#learning {
+  padding: 0 7% 7% 10%;
+  position: relative;
+}
+
+#learning .pt {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.pt {
+  margin-bottom: 5px;
+}
+
+.intn p {
+  font-weight: 500;
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #0d6efd;
+  color: white;
+}
+
+.logox {
+  margin: 15px;
+  font-size: 1.5rem;
+}
+
+#prediction {
+  background-color: #0d6efd;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+.ct {
+  background-color: white;
+  width: 700px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.btns {
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  transistion: 0.5s all;
+}
+
+.btns:hover {
+  transform: scale(1.05);
+}

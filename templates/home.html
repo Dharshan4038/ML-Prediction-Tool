@@ -1,0 +1,102 @@
+
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+    
+    <main>
+       <section>
+            <div class="main-ct container">
+                <div class="col-lg-6">
+                    <h1>Teachable Machine</h1>
+                    <h3>Train a computer to recognize your own images, sounds, & poses.</h3>
+                    <p>A fast, easy way to create machine learning models for your sites, apps, and more - no expertise or coding required.</p>
+                    <a href="{% url 'projects' %}"><button class="banner-btn btn btn-primary">Get Started</button></a>
+                </div>
+                <div class="col-log-6" >
+                    <img class="banner" src="{% static 'images/banner.png' %}" alt="iphone">
+                </div>
+            </div>
+       </section>
+
+       <section id="features">
+            <div class="content row">
+                <div class="int col-lg-4">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h3>Easy to use.</h3>
+                    <p>Ease Meets Power, Unleash Your Potential.</p>
+                </div>
+                <div class="int col-lg-4">
+                    <i class="fa-solid fa-bullseye"></i>
+                    <h3>Elite Clientele</h3>
+                    <p>Your Data, Your Future: Predict with Confidence.</p>
+                </div>
+                <div class="int col-lg-4">
+                    <i class="fa-solid fa-heart"></i>
+                    <h3>Guaranteed to work.</h3>
+                    <p>Your Success, Our Guaranteed Commitment.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="guide">
+            <div class="container">
+                <h1 class="guide-ht text-center">How do I use it  ?</h1>
+                <div class="conntent row">
+                    <div class="intn col-lg-4">
+                        <img class="guide-img" src="{% static 'images/collect.svg' %}" alt="collect">
+                        <h3>1 Gather</h3>
+                        <p>Gather and group your examples into classes, or categories, that you want the computer to learn.</p>
+                    </div>
+                    <div class="intn col-lg-4">
+                        <img class="guide-img" src="{% static 'images/train.svg' %}" alt="train">
+                        <h3>2 Train</h3>
+                        <p>Train your model, then instantly test it out to see whether it can correctly classify new examples.</p>
+                    </div>
+                    <div class="intn col-lg-4">
+                        <img class="guide-img export-img" src="{% static 'images/export.svg' %}" alt="">
+                        <h3>3 Export</h3>
+                        <p>Export your model for your projects: sites, apps, and more. You can download your model or host it online.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="learning">
+            <div class="container">
+                <h1 class="guide-ht text-center">For Learning</h1>
+                <p class="pt">Want to learn using Teachable Machine?</p>
+                <p class="pt">Here are some lessons & activities folks have made with it:</p>
+                <div class="content row">
+                    <div class="intn col-lg-4">
+                        <h3><a href="https://docs.google.com/document/d/1e9wx9oBg7CR0s5O7YnYHVmX7H7pnITfoDxNdrSGkp60/view#heading=h.1et5vs39qkyh" target="_blank" >AI + Ethics <i class="fa-solid fa-file"></i></a></h3>
+                        <p>by Blakeley H. Payne, Personal Robots Group, MIT Media Lab</p>
+                        <p>A lesson for students to start understanding bias in algorithmic systems.</p>
+                        <p>Common Core, K-8, tech</p>
+                    </div>
+                    <div class="intn col-lg-4">
+                        <h3><a href="https://dancingwithai.media.mit.edu/" target="_blank">Dancing with AI <i class="fa-solid fa-file"></i></a></h3>
+                        <p>by MIT Media Lab</p>
+                        <p>Use Teachable Machine and PoseBlocks to create interactive systems.</p>
+                        <p>K-8, tech</p>
+                    </div>
+                    <div class="intn col-lg-4">
+                        <h3><a href="https://www.readyai.org/" target="_blank">Ready AI Lesson <i class="fa-solid fa-file"></i></a></h3>
+                        <p>by Ready AI</p>
+                        <p>Explore Teachable Machine and learn the concepts of machine learning, classification, and societal impact.</p>
+                        <p>K-12</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+                <i class="logox fa-brands fa-twitter"></i>
+                <i class="logox fa-brands fa-facebook"></i>
+                <i class="logox fa-brands fa-instagram"></i>
+                <i class="logox fa-solid fa-envelope"></i>
+                <p>© Copyright 2023 PredictX</p>
+        </footer>
+
+    </main>
+{% endblock content %}
