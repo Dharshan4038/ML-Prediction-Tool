@@ -33,5 +33,22 @@ The application supports various datasets suitable for classification tasks, inc
 2. Install the required dependencies
 3. Run the application using the provided commands
 
+# Screenshots
+
+### Signup Page
+![image](https://github.com/Dharshan4038/Teachable-Machine/assets/94830386/23dec039-b37c-4d1a-9fc8-3360edef38ed)
+
+### Login Page
+![image](https://github.com/Dharshan4038/Teachable-Machine/assets/94830386/20d6418a-a20f-4bed-9442-892b08e6f37c)
+
+### Home Page
+![image](https://github.com/Dharshan4038/Teachable-Machine/assets/94830386/afc20184-fc6c-40a2-be56-ffb8f8788377)
+![image](https://github.com/Dharshan4038/Teachable-Machine/assets/94830386/467d1724-7770-4780-b9e7-10a196d9a34a)
+![image](https://github.com/Dharshan4038/Teachable-Machine/assets/94830386/238f3302-99a7-4d5f-bdb5-b4a632f440cf)
+
+### Prediction Page
+![image](https://github.com/Dharshan4038/Teachable-Machine/assets/94830386/fb251c04-23c3-40a4-8874-7fa0b08fd14d)
+### Predicted Result
+![image](https://github.com/Dharshan4038/Teachable-Machine/assets/94830386/058fa5cd-3e1c-471a-8d06-09b7fe2d8ba1)
 
 
