@@ -13,11 +13,7 @@
 }
 
 .start-btn {
-  width: 150px;
-  margin-right: 3rem;
-  height: 40px;
-  font-size: 18px;
-  font-weight: 600;
+  margin-right: 2rem;
 }
 
 .logo {
@@ -46,6 +42,7 @@
   width: 650px;
   border-radius: 10px;
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 .main-ct h1 {

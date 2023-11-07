@@ -12,6 +12,17 @@
     <link rel="stylesheet" href='{% static "styles/main.css" %}' type="text/css" media="screen">
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+          <div class="container">
+            <a class="navbar-brand"><img class="logo" src="{% static 'images/logo.png' %}" alt="logo"></a>
+            <div>
+              <a href="{% url 'logout' %}"><button class="btn btn-danger">Logout</button></a>
+            </div>
+          </div>
+        </nav>
+    </header>
+
     <section id="prediction">
         <div class="pt-4 container">
             <h1 class="text-center">Fill The Following Details </h1>
@@ -24,9 +35,9 @@
                     </div>
                     <div class="mb-5">
                         <label for="exampleInputEmail1" class="form-label mb-3">Enter the Inputs needed for the dataset "(eg: age,salary -> 27,15000)":</label>
-                        <input type="text" class="form-control" name="reqInputs" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" name="reqInputs" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{reqInputs}}">
                     </div>
-                    <button class="btn btns btn-primary" type="submit" name="submit">Submit</button>
+                    <button class="btn btns btn-primary" type="submit" name="submit">Predict</button>
                     <h3 class="text-center mb-5">Your Final Result</h3>
                     <h3 class="text-center">{{finalOutput}}</h3>
                 </form>
